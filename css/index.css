@@ -1,0 +1,114 @@
+html{
+	margin: 0;
+}
+body{
+	background: url(../image/image.jpeg);
+	background-size: cover;
+	text-align: center;
+}
+#header{
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 90%;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.3)
+}
+p{
+	text-decoration: white underline;
+	
+}
+#check{
+	font-size: 1rem;
+}
+input[type="checkbox"]{
+	margin: 0 0 0 240px;
+}
+#check1{
+	margin: 0 0 0 125px;
+}
+#check2{
+	font-size: 1.25rem;
+}
+#check3{
+	margin: 0 0 0 50px;
+}
+#title , #description{
+	text-align: center;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+#container{
+	display: inline-block;
+	width: 90%;
+	background: rgba(0,0,0,0.4);
+	border-radius: 5px;
+	text-align: left;
+	color: White;
+	padding: 20px 50px;
+	line-height: 30px;
+	margin: 20px auto;
+}
+
+button{
+	line-height: 30px;
+	width: 85%;
+	display: block;
+	margin: auto;
+	background: transparent;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 1.25rem;
+}
+label{
+	font-size: 1.5rem;
+	padding: 10px 30px;
+}
+input,textarea{
+	border: 0;
+	background: transparent;
+	border-bottom: 1px solid white;
+	line-height: 1.75rem;
+	font-size: 1.25rem;
+	margin: 0 10px;
+}
+
+input:focus{
+	outline: 0;
+	cursor: red;	
+}
+input, textarea,[contenteditable]{
+	caret-color: red;
+	
+}
+input[type="email"]{
+	margin: 0 80px;
+}
+input[type="number"]{
+	margin: 0 130px;
+}
+::placeholder{
+	color: white;
+	opacity: 0.6;
+}
+select{
+	border: none;
+	background: transparent;
+	color: white;
+	font-size: 1.25rem;
+}
+select option{
+	background-color: #0d0d0d;
+}
+select:focus{
+	outline: 0;
+}
+textarea{
+	margin: 0 0 0 240px;
+	/* background: transparent;
+	background: rgba(255,255,255,0.2); */
+	outline: none;
+}
+button:hover{
+	background: rgba(255,255,255,0.4)
+}

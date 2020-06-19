@@ -1,0 +1,64 @@
+<html>
+
+<head>
+	<title> Survey Form </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<div id="header">
+		<h1 id="title"> Survey Form </h1>
+		<p id="description"> A samll survery form for the testing </p>
+	</div>
+	<div id="container">
+		<form id="survey-form">
+			<label id="name-label"> Enter your name: </label>
+			<input type="text" required placeholder="Name"><br>
+			
+			<label id="email-label"> Email-iD:</label>
+			<input type="email" required placeholder="example: someone@xyz.com"><br>
+			
+			<label id="number-label"> Age: </label>
+			<input type="number" required placeholder="Age" min="18" max="45"> <br>
+			
+			<label id="Profession"> Select Profession:</label>
+			<select id="Jobs">
+				<option value="Student">Student</option>
+				<option value="Government Servent">Government Servent</option>
+				<option value="Doctor">Doctor</option>
+				<option value="Professor">Professor</option>
+				<option value="Farmer">Farmer</option>
+				<option value="Lawyer">Lawyer</option>
+			</select><br>
+			
+			<label id="gender"> Gender: </label>
+			<input id="check1" type="radio" id="male" name="gender" value="male">
+			<label id="check2" for="male"> Male </label>
+			<input id="check3" type="radio" id="female" name="gender" value="female">
+			<label id="check2" for="female"> Female </label><br>
+			
+			<label> Select your Hobbies</label><br>
+			<label> (Select Multiple):</label><br>
+			<input type="checkbox" value="1">
+			<label id="check"> Cycling </label><br>
+			<input type="checkbox" value="2">
+			<label id="check"> Swimming </label><br>
+			<input type="checkbox" value="3">
+			<label id="check"> Reading </label><br>
+			<input type="checkbox" value="4">
+			<label id="check"> Hiking </label><br>
+			<input type="checkbox" value="5">
+			<label id="check"> Painting </label><br>
+			<label id="text"> More about you: </label><br>
+			
+			<textarea>
+				</textarea><br><br>
+			<div class="button">
+				<button type="submit"> Submit </button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
